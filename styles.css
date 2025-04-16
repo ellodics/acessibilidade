@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 
@@ -138,7 +138,7 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #000000;
+    background-color: #f7f7f7;
 }
 .menu-acessibilidade{
     position: fixed;
@@ -161,3 +161,4 @@ h2 {
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
+.botao-inicio
