@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #ff862a
+    --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
@@ -16,18 +16,21 @@ body {
 header {
     background-color: #ffffff;
 }
+
+
 section {
     padding-bottom: 5rem;
 }
 
+
 .nav-link {
-    color: #86f353;
+    color: #CB6D43;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/billie-eilish-no-brasi.png');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -37,17 +40,6 @@ section {
     padding: 40px;
     margin: 0 auto;
 }
-
-
-.esquerda-conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-}
-
-
-.botao-inicio {
 
 /* posicionamento para a imagem à direita */
 .img-inicio {
@@ -72,9 +64,7 @@ section {
     border-radius: 30px;
     border: none;
     width: 14em;
-    /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
-    /* Convertido para em */
     align-content: center;
 
 }
@@ -89,8 +79,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/album.billie2-preview.png') top right no-repeat,
-        url('img/album.billie2-preview.png') bottom left no-repeat;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -118,12 +108,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/billie.albun3-preview.png') bottom right no-repeat;
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/fundo.verde.billie.png');
+    background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -142,13 +132,22 @@ h2 {
 }
 
 .formulario button {
-    background-color: #eaebea;
+    background-color: #CB6D43;
     border: none;
     font-weight: bold;
 }
 
-/* chama classe do bootstrap para modificar a cor */
-.form-control {.rotacao-botao{
+.form-control {
+    background-color: #F1EDEF;
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right:20px;
+    z-index: 1000;
+}
+
+.rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
 }
@@ -174,7 +173,7 @@ h2 {
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario{
-    background-color: var(--alto-c…fundo);
+    background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
 
