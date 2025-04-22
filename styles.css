@@ -41,6 +41,17 @@ section {
     margin: 0 auto;
 }
 
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.botao-inicio {
+
 /* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
