@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #5ac232;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
@@ -132,7 +132,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #6ecb43;
     border: none;
     font-weight: bold;
 }
@@ -197,4 +197,46 @@ h2 {
 }
 .alto-contraste .fundo-galeria {
     background: none;
+}@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #ff862a
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
 }
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #ffffff;
+}
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: #86f353;
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    /* aula 3 */
+    background-image: url('img/billie-eilish-no-brasi.png');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
