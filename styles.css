@@ -39,6 +39,7 @@ section {
     height: 606px;
     padding: 40px;
     margin: 0 auto;
+
 }
 
 /* posicionamento para a imagem à direita */
@@ -188,9 +189,51 @@ h2 {
 }
 
 .alto-contraste #tropicalia {
-    background: none;
-}
-
+    background: none;}@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+    
+    :root {
+        --laranja-claro: #ff862a
+        --alto-contraste-fundo: #000000;
+        --alto-contraste-texto: #ffffff;
+        --alto-contraste-link: #226e0a;
+    }
+    
+    body {
+        font-size: 1rem;
+    
+        font-family: 'Montserrat';
+    }
+    
+    header {
+        background-color: #ffffff;
+    }
+    section {
+        padding-bottom: 5rem;
+    }
+    
+    .nav-link {
+        color: #4e992c;
+        font-weight: 600;
+    }
+    
+    .inicio-fundo {
+        /* aula 3 */
+        background-image: url('img/billie-eilish-no-brasi.png');
+        /* Substitua pelo caminho da sua imagem */
+        background-size: cover;
+        background-position: right;
+        border-radius: 80px;
+        width: 100%;
+        height: 606px;
+        padding: 40px;
+        margin: 0 auto;
+    }
+    
+    
+    .esquerda-conteudo {
+        display: flex;
+     }
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
 }
@@ -208,6 +251,7 @@ h2 {
 
 body {
     font-size: 1rem;
+
     font-family: 'Montserrat';
 }
 
@@ -225,7 +269,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/billie-eilish-no-brasi.png');
+    background-image: url('img/billie.verde.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
